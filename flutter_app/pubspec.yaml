@@ -1,0 +1,34 @@
+name: avk_events_app
+description: AVK Events Flutter app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # existing dependencies
+  http: ^0.13.6
+  http_parser: ^4.0.0
+  image_picker: ^0.8.7+5
+  shared_preferences: ^2.1.1
+  video_player: ^2.10.1
+  path: ^1.8.3
+  url_launcher: ^6.2.5
+  dotted_border: ^2.0.0
+
+  # WebView (modern controller-based API)
+  webview_flutter: ^4.0.7
+  # Optional platform-specific helpers (useful to access Android-specific features)
+  webview_flutter_android: 4.10.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
